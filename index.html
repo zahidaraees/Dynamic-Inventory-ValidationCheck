@@ -1,0 +1,51 @@
+<!--Milestone 5: Implement Basic Validation for Product Input (50 Points) 
+Objective: Add basic validation to ensure users can’t add invalid products to the inventory. 
+Requirements: 
+1. Ensure that the product name is not empty, the quantity is a positive number, and the price is a valid number. 
+2. Show an alert if any input is invalid. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyanamic Inventory Management System Milestone05(Input Validation Check)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dyanamic Inventory Management System-Milestone05</h1>
+    </header>
+
+    <main>
+        <div id="content-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="product-table-body">
+                    <!-- TypeScript dynamically adds products here -->
+                </tbody>
+            </table>
+
+            <!-- New Product Input Section -->
+            <div id="add-product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="number" id="product-quantity" placeholder="Quantity" required>
+                <input type="number" id="product-price" placeholder="Price" required >
+                <button id="add-product-button">Add Product</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed by: Zahida Raees</p>
+    </footer>
+
+    <script type="module" src="inventory.js"></script>
+</body>
+</html>

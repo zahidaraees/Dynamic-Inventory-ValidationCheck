@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  width: 1000px;
+  font-family: Arial, sans-serif;
+  font-size: larger;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #4c657a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Wrapper Styles */
+#content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+table thead th {
+  background-color: #5888b0;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+/* Input Section Styles */
+#add-product-form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#add-product-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#add-product-form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #5888b0;
+  color: white;
+  font-size: larger;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#add-product-form button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #4c657a;
+  color: #f1ecec;
+}
